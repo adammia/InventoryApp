@@ -49,6 +49,10 @@
             <TextView
                 android:id="@+id/details_product_price"
                 style="@style/EditorFieldStyle.Product" />
+            <TextView
+                android:id="@+id/label_price"
+                style="@style/PriceUnitsStyle"
+                android:text="@string/dollar" />
 
         </LinearLayout>
 

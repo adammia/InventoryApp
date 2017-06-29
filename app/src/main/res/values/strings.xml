@@ -21,8 +21,8 @@
     <string name="empty_inventory">The Inventory is Empty</string>
     <string name="adding_product">Start by adding a Product!</string>
     <string name="intentType">image/*</string>
-    <string name="selectPicture">Select Picture</string>
-    <string name="sell_succesfull">Sell successfull!</string>
+    <string name="selectPicture">Select picture please!</string>
+    <string name="sell_succesfull">Sell successful!</string>
 
     <string name="save">Save</string>
     <string name="delete">Delete</string>

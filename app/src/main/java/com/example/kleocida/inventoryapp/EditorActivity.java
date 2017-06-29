@@ -200,6 +200,10 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
                 if ((stringName.length() < 3) || (stringPrice.length() < 1 || stringPrice.length() > 10) || (stringQuantity.length() < 1 || stringQuantity.length() > 10) || (stringSupmail.length() < 3) || (stringSupname.length() < 3))
                     showToast(getString(R.string.add_allinfo));
 
+                if ((img == null)&& (inventoryUri == null))  {
+                    showToast(getString(R.string.selectPicture));
+                }
+
                 else {
                     saveProduct();
                     finish();
